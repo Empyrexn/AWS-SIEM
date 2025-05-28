@@ -1,5 +1,7 @@
 # Log Ingestion and Security Analytics Pipeline
 
+Disclaimer: This project was inspired by work done during an internship at California State University, Fresno. All code and configurations provided here are educational templates and do not reflect any production environment or proprietary university infrastructure.
+
 ## Overview
 
 This project focuses on the creation of a robust and scalable log ingestion pipeline designed to facilitate security analytics. The pipeline captures logs from Amazon S3, processes them using Fluent Bit hosted on EC2 instances, and then indexes them into OpenSearch for real-time analysis through OpenSearch Dashboards. AWS Lambda is integrated to perform specific processing tasks on the logs before they are forwarded to other components in the pipeline. The primary goal is to build an infrastructure that enables efficient log collection, processing, and security monitoring, ensuring that potential security threats can be detected and analyzed in a timely manner.
@@ -46,8 +48,6 @@ This project focuses on the creation of a robust and scalable log ingestion pipe
 ## Conclusion
 
 This project demonstrates the integration of key AWS services to build a secure and scalable log ingestion pipeline that supports real-time security analytics. By combining S3, Lambda, EC2, Fluent Bit, OpenSearch, and OpenSearch Dashboards, the pipeline provides a comprehensive solution for monitoring and analyzing security-related events, helping organizations detect and respond to potential threats more effectively.
-
-Disclaimer: This project was inspired by work done during an internship at California State University, Fresno. All code and configurations provided here are educational templates and do not reflect any production environment or proprietary university infrastructure.
 
 ![image](https://github.com/user-attachments/assets/4fa6933c-b611-4b17-b4b2-abdf80a3c4b8)
 
