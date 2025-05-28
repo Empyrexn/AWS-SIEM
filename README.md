@@ -47,6 +47,8 @@ This project focuses on the creation of a robust and scalable log ingestion pipe
 
 This project demonstrates the integration of key AWS services to build a secure and scalable log ingestion pipeline that supports real-time security analytics. By combining S3, Lambda, EC2, Fluent Bit, OpenSearch, and OpenSearch Dashboards, the pipeline provides a comprehensive solution for monitoring and analyzing security-related events, helping organizations detect and respond to potential threats more effectively.
 
+Disclaimer: This repository is for educational and portfolio purposes only. No license is granted for reuse or redistribution of this code.
+
 ![image](https://github.com/user-attachments/assets/4fa6933c-b611-4b17-b4b2-abdf80a3c4b8)
 
 ![image](https://github.com/user-attachments/assets/719fea69-7859-4912-96c9-2d77afa51019)
